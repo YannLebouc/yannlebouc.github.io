@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet"> 
     <title>CV Lebouc Yann</title>
 </head>
 <body>
@@ -26,7 +30,7 @@
                 <p>Loading</p>
             </div>
             <aside class="marge__hobbies">
-                <h2 class="hobbies__title">hobbies</h2>
+                <h2 class="hobbies__titre">hobbies</h2>
                 <ul class="hobbies__liste">
                     <li>Langues étrangères &#127757; </li>
                     <li>Voyages | Nature &#9875; &#128747;</li>
@@ -42,79 +46,85 @@
             </aside>
         </section>
 
-        <section class="philosophie">
-            <h2 class="philosophie__titre">Philosophie de vie</h2>
-            <blockquote class="philosophie__citation">
-                <p class="philosophie__citation philosophie__citation--texte">You will not win, because I will not lose</p>
-                <p class="philosophie__citation philosophie__citation--auteur">- Roy Jones Junior</p>
-            </blockquote>
-        </section>
-        
-        <section class="experience">
-            <h2 class="experience__titre">éxperiences professionnelles</h2>
-            <img src="images/Emblème-Décathlon (1).jpg"
-            alt="Decathlon" class="experience__logo">
-            <h3 class="experience__metier">responsable de rayon</h3>
-            <ul class="experience__missions">
-                <li>Decathlon | Anglet | Janvier 2019 - Janvier 2022 : 
-                    <ul>
-                        <li>
-                            Management/Animation d'une équipe de 5 à 10 personnes : Développer la compétence 
-                            / Dynamiser une équipe / Faire vivre un projet
-                        </li>
-                        <li>Pilotage / Gestion de compte d'exploitation : CA / Marge / Frais / Stock / Résultat </li>
-                        <li>Analyse de marché / Gestion d'alerte commerciale</li>
-                        <li>Gestion du personnel : Recrutement actif / Application du cadre légal</li>
-                        <li>Moniteur outils informatiques</li>
-                    </ul>
-                </li>   
-            </ul>
+        <div class="contenu__centre">
+            <section class="philosophie">
+                <h2 class="philosophie__titre">Philosophie de vie</h2>
+                <blockquote class="philosophie__citation">
+                    <p class="philosophie__citation philosophie__citation--texte">You will not win, because I will not lose</p>
+                    <p class="philosophie__citation philosophie__citation--auteur">- Roy Jones Junior</p>
+                </blockquote>
+            </section>
 
-            <img src="images/Emblème-Décathlon (1).jpg"
-            alt="Decathlon" class="experience__logo">
-            <h3 class="experience__metier">Vendeur sportif</h3>
-            <ul class="experience__missions">
-                <li>Decathlon | Bordeaux Bouliac | Avril 2015 - Décembre 2019 :
-                    <ul>
-                        <li>Vente d'articles de sport en B2C</li>
-                        <li>Mission de leader digital 2018-2019 :
-                            <ul>
-                                <li>écriture et mise en place de stratégies commerciales particpant à la transormation digitale de l'entreprise</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>   
-            </ul>
-        </section>
+            <section class="experience">
+                <h2 class="experience__titre">éxperiences professionnelles</h2>
+                <img src="images/Emblème-Décathlon (1).jpg"
+                alt="Decathlon" class="experience__logo">
+                <h3 class="experience__metier">responsable de rayon</h3>
+                <ul class="experience__missions">
+                    <li>Decathlon | Anglet | Janvier 2019 - Janvier 2022 : 
+                        <ul>
+                            <li>
+                                Management/Animation d'une équipe de 5 à 10 personnes : Développer la compétence 
+                                / Dynamiser une équipe / Faire vivre un projet
+                            </li>
+                            <li>Pilotage / Gestion de compte d'exploitation : CA / Marge / Frais / Stock / Résultat </li>
+                            <li>Analyse de marché / Gestion d'alerte commerciale</li>
+                            <li>Gestion du personnel : Recrutement actif / Application du cadre légal</li>
+                            <li>Moniteur outils informatiques</li>
+                        </ul>
+                    </li>   
+                </ul>
 
-        <section class="competences">
-            <h3 class="competences__titre">compétences</h3>
-            <h2 class="competences__languages">compétences informatiques</h2>
+                <img src="images/Emblème-Décathlon (1).jpg"
+                alt="Decathlon" class="experience__logo">
+                <h3 class="experience__metier">Vendeur sportif</h3>
+                <ul class="experience__missions">
+                    <li>Decathlon | Bordeaux Bouliac | Avril 2015 - Décembre 2019 :
+                        <ul>
+                            <li>Vente d'articles de sport en B2C</li>
+                            <li>Mission de leader digital 2018-2019 :
+                                <ul>
+                                    <li>écriture et mise en place de stratégies commerciales particpant à la transormation digitale de l'entreprise</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>   
+                </ul>
+            </section>
 
-            <div class="langages__container">
-                <p>Loading...</p>
-            </div>
+            <section class="competences">
+                <h3 class="competences__titre">compétences</h3>
+                <h2 class="competences__languages">compétences informatiques</h2>
 
-            <h3 class="competences__langues">langues étrangères</h3>
-            <ul>
-                <li>
-                    <img src="images/drapeau-france.png"
-                    alt="drapeau français">Français &#11088;&#11088;&#11088;&#11088;&#11088;&#11088; 
-                </li>
-                <li>
-                    <img src="images/drapeau-uk.png"
-                    alt="drapeau du royaume-uni">Anglais &#11088;&#11088;&#11088;&#11088;&#11088;
-                </li>
-                <li>
-                    <img src="images/drapeau-espagne.png"
-                    alt="drapeau de l'espagne">Espagnol &#11088;&#11088;</li>
-                <li>
-                    <img src="images/drapeau-suède.png"
-                    alt="drapeau de la suède">Suédois &#11088; 
-                </li>
-            </ul>
-        </section>
+                <div class="langages__container">
+                    <p>Loading...</p>
+                </div>
+
+                <h3 class="competences__langues">langues étrangères</h3>
+                <ul>
+                    <li>
+                        <img src="images/drapeau-france.png"
+                        alt="drapeau français">Français &#11088;&#11088;&#11088;&#11088;&#11088;&#11088; 
+                    </li>
+                    <li>
+                        <img src="images/drapeau-uk.png"
+                        alt="drapeau du royaume-uni">Anglais &#11088;&#11088;&#11088;&#11088;&#11088;
+                    </li>
+                    <li>
+                        <img src="images/drapeau-espagne.png"
+                        alt="drapeau de l'espagne">Espagnol &#11088;&#11088;</li>
+                    <li>
+                        <img src="images/drapeau-suède.png"
+                        alt="drapeau de la suède">Suédois &#11088; 
+                    </li>
+                </ul>
+            </section>
+        </div>
 
     </main>
+    <footer>
+            <p>N'attendez pas Pâques...</p>
+            <a href="https://fr.wikipedia.org/wiki/Easter_egg" target="_blank">&#128048; &#128035;</a>
+    </footer>
 </body>
 </html>
