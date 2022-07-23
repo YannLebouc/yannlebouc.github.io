@@ -22,7 +22,7 @@ h2 {
 
 .en-tete {
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     border-bottom: 1px solid black;
     display: flex;
     align-items: center;
@@ -48,7 +48,8 @@ h2 {
 .contenu {
     display: flex;
     width: 100%;
-    height: 75%;
+    height: 70%;
+    overflow: scroll;
 }
 
 .marge {
@@ -86,11 +87,15 @@ h2 {
     font-style: italic;
 }
 
-
+.contenu__centre {
+    width: 100%;
+}
 
 footer {
     text-align: center;
     border-top: 1px solid black;
     line-height: 2;
+    width: 100%;
+    min-height: 5%;
 
 }
