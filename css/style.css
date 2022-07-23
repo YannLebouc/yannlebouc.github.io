@@ -16,7 +16,8 @@ h3 {
     font-weight: bolder;
 }
 
-h2 {
+h2,
+h3 {
     margin: 1rem 0;
 }
 
@@ -89,8 +90,24 @@ h2 {
 
 .contenu__centre {
     width: 100%;
+    line-height: 1.3;
+
 }
 
+.competences__titre,
+.experience__titre {
+    text-align: center;
+}
+
+.competences__titre {
+    margin: 1rem  0 0;
+}
+
+.competences__container-lateral {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
 footer {
     text-align: center;
     border-top: 1px solid black;
