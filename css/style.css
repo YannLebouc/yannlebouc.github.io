@@ -56,17 +56,23 @@ h2 {
     height: 100%;
     text-align: center;
     line-height: 1.5;
-    padding-top: 4rem;
+    font-size: 0.9rem;
 }
 
 .marge__adresse,
 .marge__education,
-.marge__hobbies {
+.marge__philosophie {
     margin: 1rem;
-    border-top: 1px solid black;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+
 }
 
-.philosophie,
+.marge__hobbies {
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+
 .experience {
     border-bottom: 1px solid black;
 }
@@ -76,9 +82,9 @@ h2 {
     text-align: center;
 }
 
-
-
-
+.philosophie__citation--auteur {
+    font-style: italic;
+}
 
 
 
