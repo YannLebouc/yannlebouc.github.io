@@ -66,10 +66,8 @@ h2 {
     border-top: 1px solid black;
 }
 
-.marge__hobbies,
 .philosophie,
-.experience,
-.competences {
+.experience {
     border-bottom: 1px solid black;
 }
 
@@ -84,10 +82,9 @@ h2 {
 
 
 
-
-
-
 footer {
     text-align: center;
+    border-top: 1px solid black;
+    line-height: 2;
 
 }
