@@ -1,7 +1,7 @@
 :root {
     --marge-color: #759eb8;
-    --header-color: #c5d5ea;
-    --bg-color: #7392b7;
+    --header-color: #cdd8e7;
+    --title-color: #8a9297;
     --padding-color: #b3c5d7;
     --pale-green: #d8e1e9;
 }
@@ -33,6 +33,7 @@ h3 {
 h2,
 h3 {
     margin: 1rem 0;
+    color: var(--title-color)  ;
 }
 
 .en-tete {
@@ -63,7 +64,7 @@ h3 {
     display: flex;
     width: 100%;
     height: 70%;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 
@@ -75,6 +76,7 @@ h3 {
     padding-left: 2rem;
 }
 
+.marge__hobbies,
 .marge__adresse,
 .marge__education,
 .marge__philosophie {
@@ -82,9 +84,14 @@ h3 {
     padding-bottom: 1rem;
 }
 
-.marge__hobbies {
-    margin: 1rem;
-    padding-bottom: 1rem;
+.marge__hobbies,
+.marge__adresse,
+.marge__education,
+.marge__philosophie,
+.experience,
+.competences {
+    background-color: var(--pale-green);
+    padding-left: 1rem;
 }
 
 .philosophie {
@@ -99,8 +106,9 @@ h3 {
     width: 100%;
     line-height: 1.3;
     padding-left: 1rem;
-    background-color: white;
+    padding-right: 2rem;
 }
+
 .experience__missions ul {
     padding-left: 1rem;
     margin-left: 1rem;
@@ -119,6 +127,7 @@ h3 {
 .competences__titre,
 .experience__titre {
     text-align: center;
+    padding-top: 1rem;
 }
 
 .competences__titre {
